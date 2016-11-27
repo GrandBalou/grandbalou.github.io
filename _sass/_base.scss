@@ -206,8 +206,10 @@ pre {
 }
 
 #home-img{
-    background: url(" GrandBalou.github.io/home-image.JPG ") no-repeat relative center;
+    background: #999;
+    border: 3px solid;
     width: 100%;
     text-align: center;
     background-size: cover;
+    padding: 50px 0px;
 }
