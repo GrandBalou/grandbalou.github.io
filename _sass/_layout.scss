@@ -1,3 +1,6 @@
+h1, h2{
+    font-family: $base-h-font-family;
+}
 /**
  * Site header
  */
@@ -202,12 +205,14 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
+    font-family: $base-h-font-family;
 }
 
 .post-title {
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
+    font-family: $base-h-font-family;
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -219,6 +224,7 @@
 
     h2 {
         font-size: 32px;
+        font-family: $base-h-font-family;
 
         @include media-query($on-laptop) {
             font-size: 28px;
