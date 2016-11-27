@@ -206,8 +206,8 @@ pre {
 }
 
 #home-img{
-    background: #AAA;
-    border: 3px solid #222;
+    background: url("home-image.JPG") no-repeat fixed center;
+    background-size: cover;
     width: 100%;
     text-align: center;
     background-size: cover;
