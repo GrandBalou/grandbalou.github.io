@@ -206,7 +206,8 @@ pre {
 }
 
 #home-img{
-    background: url("https://raw.githubusercontent.com/GrandBalou/GrandBalou.github.io/master/_sass/home-image.JPG") no-repeat fixed center;
+    background: url("https://raw.githubusercontent.com/GrandBalou/GrandBalou.github.io/master/_sass/home-image.JPG")
+        no-repeat relative bottom;
     background-size: cover;
     width: 100%;
     color: white;
