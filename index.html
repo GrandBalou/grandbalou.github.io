@@ -1,13 +1,13 @@
 ---
 layout: default
+featured-img: https://cloud.githubusercontent.com/assets/24191817/20786817/755dddde-b7a8-11e6-9410-9964fb99d3a1.JPG
 ---
 
   
-
-<div id="banner" width="100%">
-<!--<h3>Welcome to</h3>
+<div class="FeaturedImgBanner" {% if page.featured-img %} style="background-image: url('{{ page.featured-img }}');" {% endif %}>
+    <h3>Welcome to</h3>
     <h1>{{ site.title }}</h1>
-    <h4>enjoy your stay</h4>-->
+    <h4>enjoy your stay</h4>
  </div>
 
 <div class="home">
